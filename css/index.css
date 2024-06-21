@@ -1,66 +1,69 @@
-
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body{
-    
-    background-image: url("bg.jpg");
-    background-size: cover; /* Membuat gambar sesuai dengan ukuran layar */
-      background-repeat: no-repeat; /* Mencegah gambar terulang */
-    font-family: 'Creepster', cursive;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  #nameInput{
-    width: 80%;
-    padding: 5px;
-    outline: none;
-    border-radius: 10px;
-  }
-  .card{
-    width: 90%;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    background-color: transparent;
-    color: rgb(255,29,29);
-    background-color:rgba(0,0,0,0.376) ;
-    max-width: 500px;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../bg.jpg");
+  background-size: cover; /* Membuat gambar sesuai dengan ukuran layar */
+  background-repeat: no-repeat; /* Mencegah gambar terulang */
+  font-family: 'Creepster', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#nameInput {
+  width: 80%;
+  padding: 5px;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid red;
+  background-color: transparent;
+  color: red;
+}
+#result{
+  width: 70%;
+  text-align: center;
   
-  .card-body button{
-    width: 80%;
-    padding: 5px;
-    border-radius: 8px;
-    background-color: red;
-    font-weight: 800;
-    outline: none;
-    border: none;
-    color: black;
-  }
-  .card-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
+}
+.card {
+  min-width: 300px;
+  
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 10px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.376); /* Hapus duplikat background-color */
+  color: rgb(255, 29, 29);
+  
+}
 
-  }
-  .author{
-    position: fixed;
-    bottom: 5%;
-    left: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    width: 100px;
-    background-color: rgba(255,13,13,0.253);
-    border-radius: 10px;
-    color: #686868a7;
-  }
-
+ button {
+  width: 80%;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: red;
+  font-weight: 800;
+  outline: none;
+  border: none;
+  color: black;
+}
+.author {
+  position: fixed;
+  bottom: 5%;
+  left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 100px;
+  background-color: rgba(255, 13, 13, 0.253);
+  border-radius: 10px;
+  color: #686868a7;
+}
