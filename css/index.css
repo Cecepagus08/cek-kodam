@@ -9,6 +9,7 @@ body {
   background-repeat: no-repeat; /* Mencegah gambar terulang */
   font-family: 'Creepster', cursive;
   display: flex;
+  color: red;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -20,8 +21,10 @@ body {
   outline: none;
   border-radius: 10px;
   border: 1px solid red;
+  font-weight: 800;
+  color: white;
   background-color: transparent;
-  color: red;
+  
 }
 #result{
   width: 70%;
@@ -39,8 +42,8 @@ body {
   border-radius: 10px;
   gap: 10px;
   backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.376); /* Hapus duplikat background-color */
-  color: rgb(255, 29, 29);
+  background-color: rgba(73,70,70,0.508); /* Hapus duplikat background-color */
+  
   
 }
 
